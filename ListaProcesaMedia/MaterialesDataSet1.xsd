@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="MaterialesDataSet1" targetNamespace="http://tempuri.org/MaterialesDataSet1.xsd" xmlns:mstns="http://tempuri.org/MaterialesDataSet1.xsd" xmlns="http://tempuri.org/MaterialesDataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="MaterialesConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="MaterialesConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.ListaProcesaMedia.My.MySettings.GlobalReference.Default.MaterialesConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="pendientes_VisualizacionTableAdapter" GeneratorDataComponentClassName="pendientes_VisualizacionTableAdapter" Name="pendientes_Visualizacion" UserDataComponentName="pendientes_VisualizacionTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="MaterialesConnectionString (MySettings)" DbObjectName="Materiales.dbo.pendientes_Visualizacion" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT id_fpMetaData, fileName_fpMetaData, date_fpMetaData, path_fpMetaData, error_cvmc, estadoDalet, festadoDalet, urlproxydalet, categoryOriginal, categoryDalet, qcDalet, itemCode, ObjectIdDalet, estadoProvys, festadoProvys, qcVisionados, fqcVisionados, UsuarioVisionados, qcTecnico, fqctecnico, usuarioTecnico, id_materialProvys, codiProduccio_materialProvys, itemCode_materialProvys, category_materialProvys, postProduccio_materialProvys, nomFitxer_materialProvys, descripcio_materialProvys, titolEmissioSerie_materialProvys, titolEmissioCapitol_materialProvys, titolOriginalSerie_materialProvys, capitol__materialProvys, distribuidoraProductora_materialProvys, tipusMaterial_materialProvys, subtitolsVA_materialProvys, subtitolsEN_materialProvys, subtitolsSP_materialProvys, audioDescripcio_materialProvys FROM dbo.pendientes_Visualizacion</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="id_fpMetaData" DataSetColumn="id_fpMetaData" />
+              <Mapping SourceColumn="fileName_fpMetaData" DataSetColumn="fileName_fpMetaData" />
+              <Mapping SourceColumn="date_fpMetaData" DataSetColumn="date_fpMetaData" />
+              <Mapping SourceColumn="path_fpMetaData" DataSetColumn="path_fpMetaData" />
+              <Mapping SourceColumn="error_cvmc" DataSetColumn="error_cvmc" />
+              <Mapping SourceColumn="estadoDalet" DataSetColumn="estadoDalet" />
+              <Mapping SourceColumn="festadoDalet" DataSetColumn="festadoDalet" />
+              <Mapping SourceColumn="urlproxydalet" DataSetColumn="urlproxydalet" />
+              <Mapping SourceColumn="categoryOriginal" DataSetColumn="categoryOriginal" />
+              <Mapping SourceColumn="categoryDalet" DataSetColumn="categoryDalet" />
+              <Mapping SourceColumn="qcDalet" DataSetColumn="qcDalet" />
+              <Mapping SourceColumn="itemCode" DataSetColumn="itemCode" />
+              <Mapping SourceColumn="ObjectIdDalet" DataSetColumn="ObjectIdDalet" />
+              <Mapping SourceColumn="estadoProvys" DataSetColumn="estadoProvys" />
+              <Mapping SourceColumn="festadoProvys" DataSetColumn="festadoProvys" />
+              <Mapping SourceColumn="qcVisionados" DataSetColumn="qcVisionados" />
+              <Mapping SourceColumn="fqcVisionados" DataSetColumn="fqcVisionados" />
+              <Mapping SourceColumn="UsuarioVisionados" DataSetColumn="UsuarioVisionados" />
+              <Mapping SourceColumn="qcTecnico" DataSetColumn="qcTecnico" />
+              <Mapping SourceColumn="fqctecnico" DataSetColumn="fqctecnico" />
+              <Mapping SourceColumn="usuarioTecnico" DataSetColumn="usuarioTecnico" />
+              <Mapping SourceColumn="id_materialProvys" DataSetColumn="id_materialProvys" />
+              <Mapping SourceColumn="codiProduccio_materialProvys" DataSetColumn="codiProduccio_materialProvys" />
+              <Mapping SourceColumn="itemCode_materialProvys" DataSetColumn="itemCode_materialProvys" />
+              <Mapping SourceColumn="category_materialProvys" DataSetColumn="category_materialProvys" />
+              <Mapping SourceColumn="postProduccio_materialProvys" DataSetColumn="postProduccio_materialProvys" />
+              <Mapping SourceColumn="nomFitxer_materialProvys" DataSetColumn="nomFitxer_materialProvys" />
+              <Mapping SourceColumn="descripcio_materialProvys" DataSetColumn="descripcio_materialProvys" />
+              <Mapping SourceColumn="titolEmissioSerie_materialProvys" DataSetColumn="titolEmissioSerie_materialProvys" />
+              <Mapping SourceColumn="titolEmissioCapitol_materialProvys" DataSetColumn="titolEmissioCapitol_materialProvys" />
+              <Mapping SourceColumn="titolOriginalSerie_materialProvys" DataSetColumn="titolOriginalSerie_materialProvys" />
+              <Mapping SourceColumn="capitol__materialProvys" DataSetColumn="capitol__materialProvys" />
+              <Mapping SourceColumn="distribuidoraProductora_materialProvys" DataSetColumn="distribuidoraProductora_materialProvys" />
+              <Mapping SourceColumn="tipusMaterial_materialProvys" DataSetColumn="tipusMaterial_materialProvys" />
+              <Mapping SourceColumn="subtitolsVA_materialProvys" DataSetColumn="subtitolsVA_materialProvys" />
+              <Mapping SourceColumn="subtitolsEN_materialProvys" DataSetColumn="subtitolsEN_materialProvys" />
+              <Mapping SourceColumn="subtitolsSP_materialProvys" DataSetColumn="subtitolsSP_materialProvys" />
+              <Mapping SourceColumn="audioDescripcio_materialProvys" DataSetColumn="audioDescripcio_materialProvys" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="MaterialesDataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="MaterialesDataSet1" msprop:Generator_UserDSName="MaterialesDataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="pendientes_Visualizacion" msprop:Generator_TableClassName="pendientes_VisualizacionDataTable" msprop:Generator_TableVarName="tablependientes_Visualizacion" msprop:Generator_TablePropName="pendientes_Visualizacion" msprop:Generator_RowDeletingName="pendientes_VisualizacionRowDeleting" msprop:Generator_RowChangingName="pendientes_VisualizacionRowChanging" msprop:Generator_RowEvHandlerName="pendientes_VisualizacionRowChangeEventHandler" msprop:Generator_RowDeletedName="pendientes_VisualizacionRowDeleted" msprop:Generator_UserTableName="pendientes_Visualizacion" msprop:Generator_RowChangedName="pendientes_VisualizacionRowChanged" msprop:Generator_RowEvArgName="pendientes_VisualizacionRowChangeEvent" msprop:Generator_RowClassName="pendientes_VisualizacionRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id_fpMetaData" msprop:Generator_ColumnVarNameInTable="columnid_fpMetaData" msprop:Generator_ColumnPropNameInRow="id_fpMetaData" msprop:Generator_ColumnPropNameInTable="id_fpMetaDataColumn" msprop:Generator_UserColumnName="id_fpMetaData" type="xs:int" />
+              <xs:element name="fileName_fpMetaData" msprop:Generator_ColumnVarNameInTable="columnfileName_fpMetaData" msprop:Generator_ColumnPropNameInRow="fileName_fpMetaData" msprop:Generator_ColumnPropNameInTable="fileName_fpMetaDataColumn" msprop:Generator_UserColumnName="fileName_fpMetaData" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="date_fpMetaData" msprop:Generator_ColumnVarNameInTable="columndate_fpMetaData" msprop:Generator_ColumnPropNameInRow="date_fpMetaData" msprop:Generator_ColumnPropNameInTable="date_fpMetaDataColumn" msprop:Generator_UserColumnName="date_fpMetaData" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="path_fpMetaData" msprop:Generator_ColumnVarNameInTable="columnpath_fpMetaData" msprop:Generator_ColumnPropNameInRow="path_fpMetaData" msprop:Generator_ColumnPropNameInTable="path_fpMetaDataColumn" msprop:Generator_UserColumnName="path_fpMetaData" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="error_cvmc" msprop:Generator_ColumnVarNameInTable="columnerror_cvmc" msprop:Generator_ColumnPropNameInRow="error_cvmc" msprop:Generator_ColumnPropNameInTable="error_cvmcColumn" msprop:Generator_UserColumnName="error_cvmc" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="estadoDalet" msprop:Generator_ColumnVarNameInTable="columnestadoDalet" msprop:Generator_ColumnPropNameInRow="estadoDalet" msprop:Generator_ColumnPropNameInTable="estadoDaletColumn" msprop:Generator_UserColumnName="estadoDalet" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="festadoDalet" msprop:Generator_ColumnVarNameInTable="columnfestadoDalet" msprop:Generator_ColumnPropNameInRow="festadoDalet" msprop:Generator_ColumnPropNameInTable="festadoDaletColumn" msprop:Generator_UserColumnName="festadoDalet" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="urlproxydalet" msprop:Generator_ColumnVarNameInTable="columnurlproxydalet" msprop:Generator_ColumnPropNameInRow="urlproxydalet" msprop:Generator_ColumnPropNameInTable="urlproxydaletColumn" msprop:Generator_UserColumnName="urlproxydalet" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="categoryOriginal" msprop:Generator_ColumnVarNameInTable="columncategoryOriginal" msprop:Generator_ColumnPropNameInRow="categoryOriginal" msprop:Generator_ColumnPropNameInTable="categoryOriginalColumn" msprop:Generator_UserColumnName="categoryOriginal" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="categoryDalet" msprop:Generator_ColumnVarNameInTable="columncategoryDalet" msprop:Generator_ColumnPropNameInRow="categoryDalet" msprop:Generator_ColumnPropNameInTable="categoryDaletColumn" msprop:Generator_UserColumnName="categoryDalet" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="qcDalet" msprop:Generator_ColumnVarNameInTable="columnqcDalet" msprop:Generator_ColumnPropNameInRow="qcDalet" msprop:Generator_ColumnPropNameInTable="qcDaletColumn" msprop:Generator_UserColumnName="qcDalet" type="xs:int" minOccurs="0" />
+              <xs:element name="itemCode" msprop:Generator_ColumnVarNameInTable="columnitemCode" msprop:Generator_ColumnPropNameInRow="itemCode" msprop:Generator_ColumnPropNameInTable="itemCodeColumn" msprop:Generator_UserColumnName="itemCode" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ObjectIdDalet" msprop:Generator_ColumnVarNameInTable="columnObjectIdDalet" msprop:Generator_ColumnPropNameInRow="ObjectIdDalet" msprop:Generator_ColumnPropNameInTable="ObjectIdDaletColumn" msprop:Generator_UserColumnName="ObjectIdDalet" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="estadoProvys" msprop:Generator_ColumnVarNameInTable="columnestadoProvys" msprop:Generator_ColumnPropNameInRow="estadoProvys" msprop:Generator_ColumnPropNameInTable="estadoProvysColumn" msprop:Generator_UserColumnName="estadoProvys" type="xs:int" minOccurs="0" />
+              <xs:element name="festadoProvys" msprop:Generator_ColumnVarNameInTable="columnfestadoProvys" msprop:Generator_ColumnPropNameInRow="festadoProvys" msprop:Generator_ColumnPropNameInTable="festadoProvysColumn" msprop:Generator_UserColumnName="festadoProvys" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="qcVisionados" msprop:Generator_ColumnVarNameInTable="columnqcVisionados" msprop:Generator_ColumnPropNameInRow="qcVisionados" msprop:Generator_ColumnPropNameInTable="qcVisionadosColumn" msprop:Generator_UserColumnName="qcVisionados" type="xs:int" minOccurs="0" />
+              <xs:element name="fqcVisionados" msprop:Generator_ColumnVarNameInTable="columnfqcVisionados" msprop:Generator_ColumnPropNameInRow="fqcVisionados" msprop:Generator_ColumnPropNameInTable="fqcVisionadosColumn" msprop:Generator_UserColumnName="fqcVisionados" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="UsuarioVisionados" msprop:Generator_ColumnVarNameInTable="columnUsuarioVisionados" msprop:Generator_ColumnPropNameInRow="UsuarioVisionados" msprop:Generator_ColumnPropNameInTable="UsuarioVisionadosColumn" msprop:Generator_UserColumnName="UsuarioVisionados" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="qcTecnico" msprop:Generator_ColumnVarNameInTable="columnqcTecnico" msprop:Generator_ColumnPropNameInRow="qcTecnico" msprop:Generator_ColumnPropNameInTable="qcTecnicoColumn" msprop:Generator_UserColumnName="qcTecnico" type="xs:int" minOccurs="0" />
+              <xs:element name="fqctecnico" msprop:Generator_ColumnVarNameInTable="columnfqctecnico" msprop:Generator_ColumnPropNameInRow="fqctecnico" msprop:Generator_ColumnPropNameInTable="fqctecnicoColumn" msprop:Generator_UserColumnName="fqctecnico" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="usuarioTecnico" msprop:Generator_ColumnVarNameInTable="columnusuarioTecnico" msprop:Generator_ColumnPropNameInRow="usuarioTecnico" msprop:Generator_ColumnPropNameInTable="usuarioTecnicoColumn" msprop:Generator_UserColumnName="usuarioTecnico" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="id_materialProvys" msprop:Generator_ColumnVarNameInTable="columnid_materialProvys" msprop:Generator_ColumnPropNameInRow="id_materialProvys" msprop:Generator_ColumnPropNameInTable="id_materialProvysColumn" msprop:Generator_UserColumnName="id_materialProvys" type="xs:int" />
+              <xs:element name="codiProduccio_materialProvys" msprop:Generator_ColumnVarNameInTable="columncodiProduccio_materialProvys" msprop:Generator_ColumnPropNameInRow="codiProduccio_materialProvys" msprop:Generator_ColumnPropNameInTable="codiProduccio_materialProvysColumn" msprop:Generator_UserColumnName="codiProduccio_materialProvys" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="itemCode_materialProvys" msprop:Generator_ColumnVarNameInTable="columnitemCode_materialProvys" msprop:Generator_ColumnPropNameInRow="itemCode_materialProvys" msprop:Generator_ColumnPropNameInTable="itemCode_materialProvysColumn" msprop:Generator_UserColumnName="itemCode_materialProvys" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="category_materialProvys" msprop:Generator_ColumnVarNameInTable="columncategory_materialProvys" msprop:Generator_ColumnPropNameInRow="category_materialProvys" msprop:Generator_ColumnPropNameInTable="category_materialProvysColumn" msprop:Generator_UserColumnName="category_materialProvys" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="postProduccio_materialProvys" msprop:Generator_ColumnVarNameInTable="columnpostProduccio_materialProvys" msprop:Generator_ColumnPropNameInRow="postProduccio_materialProvys" msprop:Generator_ColumnPropNameInTable="postProduccio_materialProvysColumn" msprop:Generator_UserColumnName="postProduccio_materialProvys" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="nomFitxer_materialProvys" msprop:Generator_ColumnVarNameInTable="columnnomFitxer_materialProvys" msprop:Generator_ColumnPropNameInRow="nomFitxer_materialProvys" msprop:Generator_ColumnPropNameInTable="nomFitxer_materialProvysColumn" msprop:Generator_UserColumnName="nomFitxer_materialProvys" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="descripcio_materialProvys" msprop:Generator_ColumnVarNameInTable="columndescripcio_materialProvys" msprop:Generator_ColumnPropNameInRow="descripcio_materialProvys" msprop:Generator_ColumnPropNameInTable="descripcio_materialProvysColumn" msprop:Generator_UserColumnName="descripcio_materialProvys" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="titolEmissioSerie_materialProvys" msprop:Generator_ColumnVarNameInTable="columntitolEmissioSerie_materialProvys" msprop:Generator_ColumnPropNameInRow="titolEmissioSerie_materialProvys" msprop:Generator_ColumnPropNameInTable="titolEmissioSerie_materialProvysColumn" msprop:Generator_UserColumnName="titolEmissioSerie_materialProvys" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="titolEmissioCapitol_materialProvys" msprop:Generator_ColumnVarNameInTable="columntitolEmissioCapitol_materialProvys" msprop:Generator_ColumnPropNameInRow="titolEmissioCapitol_materialProvys" msprop:Generator_ColumnPropNameInTable="titolEmissioCapitol_materialProvysColumn" msprop:Generator_UserColumnName="titolEmissioCapitol_materialProvys" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="titolOriginalSerie_materialProvys" msprop:Generator_ColumnVarNameInTable="columntitolOriginalSerie_materialProvys" msprop:Generator_ColumnPropNameInRow="titolOriginalSerie_materialProvys" msprop:Generator_ColumnPropNameInTable="titolOriginalSerie_materialProvysColumn" msprop:Generator_UserColumnName="titolOriginalSerie_materialProvys" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="capitol__materialProvys" msprop:Generator_ColumnVarNameInTable="columncapitol__materialProvys" msprop:Generator_ColumnPropNameInRow="capitol__materialProvys" msprop:Generator_ColumnPropNameInTable="capitol__materialProvysColumn" msprop:Generator_UserColumnName="capitol__materialProvys" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="distribuidoraProductora_materialProvys" msprop:Generator_ColumnVarNameInTable="columndistribuidoraProductora_materialProvys" msprop:Generator_ColumnPropNameInRow="distribuidoraProductora_materialProvys" msprop:Generator_ColumnPropNameInTable="distribuidoraProductora_materialProvysColumn" msprop:Generator_UserColumnName="distribuidoraProductora_materialProvys" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="tipusMaterial_materialProvys" msprop:Generator_ColumnVarNameInTable="columntipusMaterial_materialProvys" msprop:Generator_ColumnPropNameInRow="tipusMaterial_materialProvys" msprop:Generator_ColumnPropNameInTable="tipusMaterial_materialProvysColumn" msprop:Generator_UserColumnName="tipusMaterial_materialProvys" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="subtitolsVA_materialProvys" msprop:Generator_ColumnVarNameInTable="columnsubtitolsVA_materialProvys" msprop:Generator_ColumnPropNameInRow="subtitolsVA_materialProvys" msprop:Generator_ColumnPropNameInTable="subtitolsVA_materialProvysColumn" msprop:Generator_UserColumnName="subtitolsVA_materialProvys" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="subtitolsEN_materialProvys" msprop:Generator_ColumnVarNameInTable="columnsubtitolsEN_materialProvys" msprop:Generator_ColumnPropNameInRow="subtitolsEN_materialProvys" msprop:Generator_ColumnPropNameInTable="subtitolsEN_materialProvysColumn" msprop:Generator_UserColumnName="subtitolsEN_materialProvys" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="subtitolsSP_materialProvys" msprop:Generator_ColumnVarNameInTable="columnsubtitolsSP_materialProvys" msprop:Generator_ColumnPropNameInRow="subtitolsSP_materialProvys" msprop:Generator_ColumnPropNameInTable="subtitolsSP_materialProvysColumn" msprop:Generator_UserColumnName="subtitolsSP_materialProvys" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="audioDescripcio_materialProvys" msprop:Generator_ColumnVarNameInTable="columnaudioDescripcio_materialProvys" msprop:Generator_ColumnPropNameInRow="audioDescripcio_materialProvys" msprop:Generator_ColumnPropNameInTable="audioDescripcio_materialProvysColumn" msprop:Generator_UserColumnName="audioDescripcio_materialProvys" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:pendientes_Visualizacion" />
+      <xs:field xpath="mstns:id_fpMetaData" />
+      <xs:field xpath="mstns:id_materialProvys" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

@@ -5,13 +5,16 @@ Public Class Form1
     '"server=192.168.108.233;user id=admateriales;password=Mariquita10;database=materiales_dev"
     Private cadenaConexion As String = "server=192.168.108.233;user id=admateriales;password=Mariquita10;database=materiales"
     Public Property LogLista As ObjectLog
+
     Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox1.SelectedIndexChanged
-        LoadGridviewBD()
+        'LoadGridviewBD()
     End Sub
 
 
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        'TODO: esta línea de código carga datos en la tabla 'MaterialesDataSetAll.pendientes_Visualizacion' Puede moverla o quitarla según sea necesario.
+        Me.Pendientes_VisualizacionTableAdapter.Fill(Me.MaterialesDataSetAll.pendientes_Visualizacion)
 
         LogLista = New ObjectLog("Prueba.txt", "C:\LOGS")
         LoadComboBoxBD()
@@ -55,9 +58,12 @@ Public Class Form1
             command.CommandText = " SELECT *
                                     FROM dbo.fileprocessmetadata fp JOIN  dbo.materialProvysToDaletXML mat 
                                         ON fp.itemCode = mat.itemCode_materialProvys
-                                    WHERE  fp.qcDalet =1 AND (fp.qcVisionados= @QCVisionados OR @QCVisionados='') AND fp.urlproxydalet<>'' "
+                                    WHERE  fp.qcDalet =1 AND (fp.qcVisionados= @QCVisionados OR @QCVisionados='') AND fp.urlproxydalet<>''
+		                                    AND (@fechaInicio <= fp.date_fpMetaData AND fp.date_fpMetaData <@fechaFin ) "
 
             command.Parameters.AddWithValue("@QCVisionados", IIf(IsNothing(ComboBox1.SelectedItem.ToString), "", ComboBox1.SelectedValue.ToString))
+            command.Parameters.AddWithValue("@fechaInicio", IIf(IsNothing(DateTimePicker1.Value.ToString), "", DateTimePicker1.Value.ToString))
+            command.Parameters.AddWithValue("@fechaFin", IIf(IsNothing(DateTimePicker2.Value.ToString), "", DateTimePicker2.Value.AddDays(1).ToString))
 
             LogLista.WriteLog(command.CommandText)
             Try
@@ -68,6 +74,9 @@ Public Class Form1
 
                 DataGridView1.DataSource = ds.Tables(0)
 
+                Dim numfilas As Integer = DataGridView1.Rows.Count()
+
+                Label5.Text = numfilas.ToString + " filas"
 
                 DataGridView1.Refresh()
 
@@ -97,7 +106,7 @@ Public Class Form1
 
             command.Parameters.AddWithValue("@estadoDalet", IIf(IsNothing(ComboBox1.SelectedItem.ToString), "", ComboBox1.SelectedValue.ToString))
 
-            LogLista.WriteLog(command.CommandText)
+            'LogLista.WriteLog(command.CommandText)
             Try
 
                 da = New SqlDataAdapter(command)
@@ -128,7 +137,7 @@ Public Class Form1
                                     UNION
                                     SELECT id_estadoDalet , nombre_estadoDalet FROM dbo.estadoDalet  "
 
-            LogLista.WriteLog(command.CommandText)
+            'LogLista.WriteLog(command.CommandText)
             Try
                 da = New SqlDataAdapter(command)
                 ds = New DataSet()
@@ -155,5 +164,16 @@ Public Class Form1
 
     End Sub
 
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        'DB: Reset behaivour
+        ComboBox1.SelectedIndex = 0
+        DateTimePicker1.Value = DateTime.Now
+        DateTimePicker2.Value = DateTime.Now
 
+        LoadGridviewBD()
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        LoadGridviewBD()
+    End Sub
 End Class

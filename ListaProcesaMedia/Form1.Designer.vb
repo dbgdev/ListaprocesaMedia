@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form1
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Form1
     'NOTA: el Diseñador de Windows Forms necesita el siguiente procedimiento
     'Se puede modificar usando el Diseñador de Windows Forms.  
     'No lo modifique con el editor de código.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
@@ -28,37 +28,41 @@ Partial Class Form1
         Me.MaterialesDataSetBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.MaterialesDataSet = New ListaProcesaMedia.MaterialesDataSet()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.IdfpMetaDataDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.FileNamefpMetaDataDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.DatefpMetaDataDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.PathfpMetaDataDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.ErrorcvmcDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.EstadoDaletDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.FestadoDaletDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.UrlproxydaletDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.CategoryOriginalDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.CategoryDaletDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.QcDaletDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.ItemCodeDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.ObjectIdDaletDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.EstadoProvysDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.FestadoProvysDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.QcVisionadosDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.FqcVisionadosDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.UsuarioVisionadosDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.QcTecnicoDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.FqctecnicoDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.UsuarioTecnicoDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.estadoDalet = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.TitolEmissioSeriematerialProvysDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.TitolEmissioCapitolmaterialProvysDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.TitolOriginalSeriematerialProvysDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.UrlproxydaletDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.QcDaletDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewCheckBoxColumn()
+        Me.QcVisionadosDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewCheckBoxColumn()
+        Me.QcTecnicoDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewCheckBoxColumn()
+        Me.PendientesVisualizacionBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.MaterialesDataSetAllBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.MaterialesDataSetAll = New ListaProcesaMedia.MaterialesDataSetAll()
         Me.FileprocessmetadataBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.FileprocessmetadataTableAdapter = New ListaProcesaMedia.MaterialesDataSetTableAdapters.fileprocessmetadataTableAdapter()
         Me.EstadoDaletTableAdapter = New ListaProcesaMedia.MaterialesDataSetTableAdapters.estadoDaletTableAdapter()
+        Me.MaterialesDataSetBindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
+        Me.Pendientes_VisualizacionTableAdapter = New ListaProcesaMedia.MaterialesDataSetAllTableAdapters.pendientes_VisualizacionTableAdapter()
+        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
+        Me.DateTimePicker2 = New System.Windows.Forms.DateTimePicker()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
         CType(Me.EstadoDaletBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.MaterialesDataSetBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.MaterialesDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PendientesVisualizacionBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.MaterialesDataSetAllBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.MaterialesDataSetAll, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.FileprocessmetadataBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.MaterialesDataSetBindingSource1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'ComboBox1
@@ -96,91 +100,20 @@ Partial Class Form1
         Me.DataGridView1.AllowUserToOrderColumns = True
         Me.DataGridView1.AutoGenerateColumns = False
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.IdfpMetaDataDataGridViewTextBoxColumn, Me.FileNamefpMetaDataDataGridViewTextBoxColumn, Me.DatefpMetaDataDataGridViewTextBoxColumn, Me.PathfpMetaDataDataGridViewTextBoxColumn, Me.ErrorcvmcDataGridViewTextBoxColumn, Me.EstadoDaletDataGridViewTextBoxColumn, Me.FestadoDaletDataGridViewTextBoxColumn, Me.UrlproxydaletDataGridViewTextBoxColumn, Me.CategoryOriginalDataGridViewTextBoxColumn, Me.CategoryDaletDataGridViewTextBoxColumn, Me.QcDaletDataGridViewTextBoxColumn, Me.ItemCodeDataGridViewTextBoxColumn, Me.ObjectIdDaletDataGridViewTextBoxColumn, Me.EstadoProvysDataGridViewTextBoxColumn, Me.FestadoProvysDataGridViewTextBoxColumn, Me.QcVisionadosDataGridViewTextBoxColumn, Me.FqcVisionadosDataGridViewTextBoxColumn, Me.UsuarioVisionadosDataGridViewTextBoxColumn, Me.QcTecnicoDataGridViewTextBoxColumn, Me.FqctecnicoDataGridViewTextBoxColumn, Me.UsuarioTecnicoDataGridViewTextBoxColumn, Me.estadoDalet, Me.Column1})
-        Me.DataGridView1.DataSource = Me.FileprocessmetadataBindingSource
+        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DatefpMetaDataDataGridViewTextBoxColumn, Me.ItemCodeDataGridViewTextBoxColumn, Me.TitolEmissioSeriematerialProvysDataGridViewTextBoxColumn, Me.TitolEmissioCapitolmaterialProvysDataGridViewTextBoxColumn, Me.TitolOriginalSeriematerialProvysDataGridViewTextBoxColumn, Me.UrlproxydaletDataGridViewTextBoxColumn, Me.QcDaletDataGridViewTextBoxColumn, Me.QcVisionadosDataGridViewTextBoxColumn, Me.QcTecnicoDataGridViewTextBoxColumn})
+        Me.DataGridView1.DataSource = Me.PendientesVisualizacionBindingSource
         Me.DataGridView1.Location = New System.Drawing.Point(12, 89)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.ReadOnly = True
         Me.DataGridView1.Size = New System.Drawing.Size(1325, 342)
         Me.DataGridView1.TabIndex = 1
         '
-        'IdfpMetaDataDataGridViewTextBoxColumn
-        '
-        Me.IdfpMetaDataDataGridViewTextBoxColumn.DataPropertyName = "id_fpMetaData"
-        Me.IdfpMetaDataDataGridViewTextBoxColumn.HeaderText = "id_fpMetaData"
-        Me.IdfpMetaDataDataGridViewTextBoxColumn.Name = "IdfpMetaDataDataGridViewTextBoxColumn"
-        Me.IdfpMetaDataDataGridViewTextBoxColumn.ReadOnly = True
-        Me.IdfpMetaDataDataGridViewTextBoxColumn.Visible = False
-        '
-        'FileNamefpMetaDataDataGridViewTextBoxColumn
-        '
-        Me.FileNamefpMetaDataDataGridViewTextBoxColumn.DataPropertyName = "fileName_fpMetaData"
-        Me.FileNamefpMetaDataDataGridViewTextBoxColumn.HeaderText = "Fitxer"
-        Me.FileNamefpMetaDataDataGridViewTextBoxColumn.Name = "FileNamefpMetaDataDataGridViewTextBoxColumn"
-        Me.FileNamefpMetaDataDataGridViewTextBoxColumn.ReadOnly = True
-        '
         'DatefpMetaDataDataGridViewTextBoxColumn
         '
         Me.DatefpMetaDataDataGridViewTextBoxColumn.DataPropertyName = "date_fpMetaData"
-        Me.DatefpMetaDataDataGridViewTextBoxColumn.HeaderText = "Data fitxer"
+        Me.DatefpMetaDataDataGridViewTextBoxColumn.HeaderText = "date_fpMetaData"
         Me.DatefpMetaDataDataGridViewTextBoxColumn.Name = "DatefpMetaDataDataGridViewTextBoxColumn"
         Me.DatefpMetaDataDataGridViewTextBoxColumn.ReadOnly = True
-        '
-        'PathfpMetaDataDataGridViewTextBoxColumn
-        '
-        Me.PathfpMetaDataDataGridViewTextBoxColumn.DataPropertyName = "path_fpMetaData"
-        Me.PathfpMetaDataDataGridViewTextBoxColumn.HeaderText = "path_fpMetaData"
-        Me.PathfpMetaDataDataGridViewTextBoxColumn.Name = "PathfpMetaDataDataGridViewTextBoxColumn"
-        Me.PathfpMetaDataDataGridViewTextBoxColumn.ReadOnly = True
-        '
-        'ErrorcvmcDataGridViewTextBoxColumn
-        '
-        Me.ErrorcvmcDataGridViewTextBoxColumn.DataPropertyName = "error_cvmc"
-        Me.ErrorcvmcDataGridViewTextBoxColumn.HeaderText = "error_cvmc"
-        Me.ErrorcvmcDataGridViewTextBoxColumn.Name = "ErrorcvmcDataGridViewTextBoxColumn"
-        Me.ErrorcvmcDataGridViewTextBoxColumn.ReadOnly = True
-        '
-        'EstadoDaletDataGridViewTextBoxColumn
-        '
-        Me.EstadoDaletDataGridViewTextBoxColumn.DataPropertyName = "estadoDalet"
-        Me.EstadoDaletDataGridViewTextBoxColumn.HeaderText = "estadoDalet"
-        Me.EstadoDaletDataGridViewTextBoxColumn.Name = "EstadoDaletDataGridViewTextBoxColumn"
-        Me.EstadoDaletDataGridViewTextBoxColumn.ReadOnly = True
-        '
-        'FestadoDaletDataGridViewTextBoxColumn
-        '
-        Me.FestadoDaletDataGridViewTextBoxColumn.DataPropertyName = "festadoDalet"
-        Me.FestadoDaletDataGridViewTextBoxColumn.HeaderText = "festadoDalet"
-        Me.FestadoDaletDataGridViewTextBoxColumn.Name = "FestadoDaletDataGridViewTextBoxColumn"
-        Me.FestadoDaletDataGridViewTextBoxColumn.ReadOnly = True
-        '
-        'UrlproxydaletDataGridViewTextBoxColumn
-        '
-        Me.UrlproxydaletDataGridViewTextBoxColumn.DataPropertyName = "urlproxydalet"
-        Me.UrlproxydaletDataGridViewTextBoxColumn.HeaderText = "urlproxydalet"
-        Me.UrlproxydaletDataGridViewTextBoxColumn.Name = "UrlproxydaletDataGridViewTextBoxColumn"
-        Me.UrlproxydaletDataGridViewTextBoxColumn.ReadOnly = True
-        '
-        'CategoryOriginalDataGridViewTextBoxColumn
-        '
-        Me.CategoryOriginalDataGridViewTextBoxColumn.DataPropertyName = "categoryOriginal"
-        Me.CategoryOriginalDataGridViewTextBoxColumn.HeaderText = "categoryOriginal"
-        Me.CategoryOriginalDataGridViewTextBoxColumn.Name = "CategoryOriginalDataGridViewTextBoxColumn"
-        Me.CategoryOriginalDataGridViewTextBoxColumn.ReadOnly = True
-        '
-        'CategoryDaletDataGridViewTextBoxColumn
-        '
-        Me.CategoryDaletDataGridViewTextBoxColumn.DataPropertyName = "categoryDalet"
-        Me.CategoryDaletDataGridViewTextBoxColumn.HeaderText = "categoryDalet"
-        Me.CategoryDaletDataGridViewTextBoxColumn.Name = "CategoryDaletDataGridViewTextBoxColumn"
-        Me.CategoryDaletDataGridViewTextBoxColumn.ReadOnly = True
-        '
-        'QcDaletDataGridViewTextBoxColumn
-        '
-        Me.QcDaletDataGridViewTextBoxColumn.DataPropertyName = "qcDalet"
-        Me.QcDaletDataGridViewTextBoxColumn.HeaderText = "qcDalet"
-        Me.QcDaletDataGridViewTextBoxColumn.Name = "QcDaletDataGridViewTextBoxColumn"
-        Me.QcDaletDataGridViewTextBoxColumn.ReadOnly = True
         '
         'ItemCodeDataGridViewTextBoxColumn
         '
@@ -189,26 +122,42 @@ Partial Class Form1
         Me.ItemCodeDataGridViewTextBoxColumn.Name = "ItemCodeDataGridViewTextBoxColumn"
         Me.ItemCodeDataGridViewTextBoxColumn.ReadOnly = True
         '
-        'ObjectIdDaletDataGridViewTextBoxColumn
+        'TitolEmissioSeriematerialProvysDataGridViewTextBoxColumn
         '
-        Me.ObjectIdDaletDataGridViewTextBoxColumn.DataPropertyName = "ObjectIdDalet"
-        Me.ObjectIdDaletDataGridViewTextBoxColumn.HeaderText = "ObjectIdDalet"
-        Me.ObjectIdDaletDataGridViewTextBoxColumn.Name = "ObjectIdDaletDataGridViewTextBoxColumn"
-        Me.ObjectIdDaletDataGridViewTextBoxColumn.ReadOnly = True
+        Me.TitolEmissioSeriematerialProvysDataGridViewTextBoxColumn.DataPropertyName = "titolEmissioSerie_materialProvys"
+        Me.TitolEmissioSeriematerialProvysDataGridViewTextBoxColumn.HeaderText = "titolEmissioSerie_materialProvys"
+        Me.TitolEmissioSeriematerialProvysDataGridViewTextBoxColumn.Name = "TitolEmissioSeriematerialProvysDataGridViewTextBoxColumn"
+        Me.TitolEmissioSeriematerialProvysDataGridViewTextBoxColumn.ReadOnly = True
         '
-        'EstadoProvysDataGridViewTextBoxColumn
+        'TitolEmissioCapitolmaterialProvysDataGridViewTextBoxColumn
         '
-        Me.EstadoProvysDataGridViewTextBoxColumn.DataPropertyName = "estadoProvys"
-        Me.EstadoProvysDataGridViewTextBoxColumn.HeaderText = "estadoProvys"
-        Me.EstadoProvysDataGridViewTextBoxColumn.Name = "EstadoProvysDataGridViewTextBoxColumn"
-        Me.EstadoProvysDataGridViewTextBoxColumn.ReadOnly = True
+        Me.TitolEmissioCapitolmaterialProvysDataGridViewTextBoxColumn.DataPropertyName = "titolEmissioCapitol_materialProvys"
+        Me.TitolEmissioCapitolmaterialProvysDataGridViewTextBoxColumn.HeaderText = "titolEmissioCapitol_materialProvys"
+        Me.TitolEmissioCapitolmaterialProvysDataGridViewTextBoxColumn.Name = "TitolEmissioCapitolmaterialProvysDataGridViewTextBoxColumn"
+        Me.TitolEmissioCapitolmaterialProvysDataGridViewTextBoxColumn.ReadOnly = True
         '
-        'FestadoProvysDataGridViewTextBoxColumn
+        'TitolOriginalSeriematerialProvysDataGridViewTextBoxColumn
         '
-        Me.FestadoProvysDataGridViewTextBoxColumn.DataPropertyName = "festadoProvys"
-        Me.FestadoProvysDataGridViewTextBoxColumn.HeaderText = "festadoProvys"
-        Me.FestadoProvysDataGridViewTextBoxColumn.Name = "FestadoProvysDataGridViewTextBoxColumn"
-        Me.FestadoProvysDataGridViewTextBoxColumn.ReadOnly = True
+        Me.TitolOriginalSeriematerialProvysDataGridViewTextBoxColumn.DataPropertyName = "titolOriginalSerie_materialProvys"
+        Me.TitolOriginalSeriematerialProvysDataGridViewTextBoxColumn.HeaderText = "titolOriginalSerie_materialProvys"
+        Me.TitolOriginalSeriematerialProvysDataGridViewTextBoxColumn.Name = "TitolOriginalSeriematerialProvysDataGridViewTextBoxColumn"
+        Me.TitolOriginalSeriematerialProvysDataGridViewTextBoxColumn.ReadOnly = True
+        '
+        'UrlproxydaletDataGridViewTextBoxColumn
+        '
+        Me.UrlproxydaletDataGridViewTextBoxColumn.DataPropertyName = "urlproxydalet"
+        Me.UrlproxydaletDataGridViewTextBoxColumn.HeaderText = "urlproxydalet"
+        Me.UrlproxydaletDataGridViewTextBoxColumn.Name = "UrlproxydaletDataGridViewTextBoxColumn"
+        Me.UrlproxydaletDataGridViewTextBoxColumn.ReadOnly = True
+        '
+        'QcDaletDataGridViewTextBoxColumn
+        '
+        Me.QcDaletDataGridViewTextBoxColumn.DataPropertyName = "qcDalet"
+        Me.QcDaletDataGridViewTextBoxColumn.HeaderText = "qcDalet"
+        Me.QcDaletDataGridViewTextBoxColumn.Name = "QcDaletDataGridViewTextBoxColumn"
+        Me.QcDaletDataGridViewTextBoxColumn.ReadOnly = True
+        Me.QcDaletDataGridViewTextBoxColumn.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.QcDaletDataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
         '
         'QcVisionadosDataGridViewTextBoxColumn
         '
@@ -216,20 +165,8 @@ Partial Class Form1
         Me.QcVisionadosDataGridViewTextBoxColumn.HeaderText = "qcVisionados"
         Me.QcVisionadosDataGridViewTextBoxColumn.Name = "QcVisionadosDataGridViewTextBoxColumn"
         Me.QcVisionadosDataGridViewTextBoxColumn.ReadOnly = True
-        '
-        'FqcVisionadosDataGridViewTextBoxColumn
-        '
-        Me.FqcVisionadosDataGridViewTextBoxColumn.DataPropertyName = "fqcVisionados"
-        Me.FqcVisionadosDataGridViewTextBoxColumn.HeaderText = "fqcVisionados"
-        Me.FqcVisionadosDataGridViewTextBoxColumn.Name = "FqcVisionadosDataGridViewTextBoxColumn"
-        Me.FqcVisionadosDataGridViewTextBoxColumn.ReadOnly = True
-        '
-        'UsuarioVisionadosDataGridViewTextBoxColumn
-        '
-        Me.UsuarioVisionadosDataGridViewTextBoxColumn.DataPropertyName = "UsuarioVisionados"
-        Me.UsuarioVisionadosDataGridViewTextBoxColumn.HeaderText = "UsuarioVisionados"
-        Me.UsuarioVisionadosDataGridViewTextBoxColumn.Name = "UsuarioVisionadosDataGridViewTextBoxColumn"
-        Me.UsuarioVisionadosDataGridViewTextBoxColumn.ReadOnly = True
+        Me.QcVisionadosDataGridViewTextBoxColumn.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.QcVisionadosDataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
         '
         'QcTecnicoDataGridViewTextBoxColumn
         '
@@ -237,34 +174,23 @@ Partial Class Form1
         Me.QcTecnicoDataGridViewTextBoxColumn.HeaderText = "qcTecnico"
         Me.QcTecnicoDataGridViewTextBoxColumn.Name = "QcTecnicoDataGridViewTextBoxColumn"
         Me.QcTecnicoDataGridViewTextBoxColumn.ReadOnly = True
+        Me.QcTecnicoDataGridViewTextBoxColumn.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.QcTecnicoDataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
         '
-        'FqctecnicoDataGridViewTextBoxColumn
+        'PendientesVisualizacionBindingSource
         '
-        Me.FqctecnicoDataGridViewTextBoxColumn.DataPropertyName = "fqctecnico"
-        Me.FqctecnicoDataGridViewTextBoxColumn.HeaderText = "fqctecnico"
-        Me.FqctecnicoDataGridViewTextBoxColumn.Name = "FqctecnicoDataGridViewTextBoxColumn"
-        Me.FqctecnicoDataGridViewTextBoxColumn.ReadOnly = True
+        Me.PendientesVisualizacionBindingSource.DataMember = "pendientes_Visualizacion"
+        Me.PendientesVisualizacionBindingSource.DataSource = Me.MaterialesDataSetAllBindingSource
         '
-        'UsuarioTecnicoDataGridViewTextBoxColumn
+        'MaterialesDataSetAllBindingSource
         '
-        Me.UsuarioTecnicoDataGridViewTextBoxColumn.DataPropertyName = "usuarioTecnico"
-        Me.UsuarioTecnicoDataGridViewTextBoxColumn.HeaderText = "usuarioTecnico"
-        Me.UsuarioTecnicoDataGridViewTextBoxColumn.Name = "UsuarioTecnicoDataGridViewTextBoxColumn"
-        Me.UsuarioTecnicoDataGridViewTextBoxColumn.ReadOnly = True
+        Me.MaterialesDataSetAllBindingSource.DataSource = Me.MaterialesDataSetAll
+        Me.MaterialesDataSetAllBindingSource.Position = 0
         '
-        'estadoDalet
+        'MaterialesDataSetAll
         '
-        Me.estadoDalet.DataPropertyName = "estadoDalet"
-        Me.estadoDalet.HeaderText = "estadoDalet"
-        Me.estadoDalet.Name = "estadoDalet"
-        Me.estadoDalet.ReadOnly = True
-        '
-        'Column1
-        '
-        Me.Column1.DataPropertyName = "id_fpMetaData"
-        Me.Column1.HeaderText = "Column1"
-        Me.Column1.Name = "Column1"
-        Me.Column1.ReadOnly = True
+        Me.MaterialesDataSetAll.DataSetName = "MaterialesDataSetAll"
+        Me.MaterialesDataSetAll.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
         '
         'FileprocessmetadataBindingSource
         '
@@ -279,11 +205,107 @@ Partial Class Form1
         '
         Me.EstadoDaletTableAdapter.ClearBeforeFill = True
         '
+        'MaterialesDataSetBindingSource1
+        '
+        Me.MaterialesDataSetBindingSource1.DataSource = Me.MaterialesDataSet
+        Me.MaterialesDataSetBindingSource1.Position = 0
+        '
+        'Pendientes_VisualizacionTableAdapter
+        '
+        Me.Pendientes_VisualizacionTableAdapter.ClearBeforeFill = True
+        '
+        'DateTimePicker1
+        '
+        Me.DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.DateTimePicker1.Location = New System.Drawing.Point(279, 38)
+        Me.DateTimePicker1.Name = "DateTimePicker1"
+        Me.DateTimePicker1.Size = New System.Drawing.Size(200, 20)
+        Me.DateTimePicker1.TabIndex = 2
+        '
+        'DateTimePicker2
+        '
+        Me.DateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.DateTimePicker2.Location = New System.Drawing.Point(515, 38)
+        Me.DateTimePicker2.Name = "DateTimePicker2"
+        Me.DateTimePicker2.Size = New System.Drawing.Size(200, 20)
+        Me.DateTimePicker2.TabIndex = 3
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(12, 22)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(63, 13)
+        Me.Label1.TabIndex = 4
+        Me.Label1.Text = "QC Estados"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(276, 22)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(69, 13)
+        Me.Label2.TabIndex = 5
+        Me.Label2.Text = "Fecha desde"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(512, 22)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(66, 13)
+        Me.Label3.TabIndex = 6
+        Me.Label3.Text = "Fecha hasta"
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(12, 443)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(60, 13)
+        Me.Label4.TabIndex = 7
+        Me.Label4.Text = "Resultados"
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Location = New System.Drawing.Point(78, 443)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(0, 13)
+        Me.Label5.TabIndex = 8
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(746, 35)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.TabIndex = 9
+        Me.Button1.Text = "Reset"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(847, 35)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(75, 23)
+        Me.Button2.TabIndex = 10
+        Me.Button2.Text = "Launch"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1418, 518)
+        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.Label5)
+        Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.DateTimePicker2)
+        Me.Controls.Add(Me.DateTimePicker1)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.ComboBox1)
         Me.Name = "Form1"
@@ -292,8 +314,13 @@ Partial Class Form1
         CType(Me.MaterialesDataSetBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.MaterialesDataSet, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PendientesVisualizacionBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.MaterialesDataSetAllBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.MaterialesDataSetAll, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.FileprocessmetadataBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.MaterialesDataSetBindingSource1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
@@ -305,27 +332,27 @@ Partial Class Form1
     Friend WithEvents FileprocessmetadataTableAdapter As MaterialesDataSetTableAdapters.fileprocessmetadataTableAdapter
     Friend WithEvents EstadoDaletBindingSource As BindingSource
     Friend WithEvents EstadoDaletTableAdapter As MaterialesDataSetTableAdapters.estadoDaletTableAdapter
-    Friend WithEvents IdfpMetaDataDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
-    Friend WithEvents FileNamefpMetaDataDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
+    Friend WithEvents MaterialesDataSetAllBindingSource As BindingSource
+    Friend WithEvents MaterialesDataSetAll As MaterialesDataSetAll
+    Friend WithEvents MaterialesDataSetBindingSource1 As BindingSource
+    Friend WithEvents PendientesVisualizacionBindingSource As BindingSource
+    Friend WithEvents Pendientes_VisualizacionTableAdapter As MaterialesDataSetAllTableAdapters.pendientes_VisualizacionTableAdapter
+    Friend WithEvents DateTimePicker1 As DateTimePicker
+    Friend WithEvents DateTimePicker2 As DateTimePicker
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Label4 As Label
+    Friend WithEvents Label5 As Label
     Friend WithEvents DatefpMetaDataDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
-    Friend WithEvents PathfpMetaDataDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
-    Friend WithEvents ErrorcvmcDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
-    Friend WithEvents EstadoDaletDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
-    Friend WithEvents FestadoDaletDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
-    Friend WithEvents UrlproxydaletDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
-    Friend WithEvents CategoryOriginalDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
-    Friend WithEvents CategoryDaletDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
-    Friend WithEvents QcDaletDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
     Friend WithEvents ItemCodeDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
-    Friend WithEvents ObjectIdDaletDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
-    Friend WithEvents EstadoProvysDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
-    Friend WithEvents FestadoProvysDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
-    Friend WithEvents QcVisionadosDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
-    Friend WithEvents FqcVisionadosDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
-    Friend WithEvents UsuarioVisionadosDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
-    Friend WithEvents QcTecnicoDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
-    Friend WithEvents FqctecnicoDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
-    Friend WithEvents UsuarioTecnicoDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
-    Friend WithEvents estadoDalet As DataGridViewTextBoxColumn
-    Friend WithEvents Column1 As DataGridViewTextBoxColumn
+    Friend WithEvents TitolEmissioSeriematerialProvysDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
+    Friend WithEvents TitolEmissioCapitolmaterialProvysDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
+    Friend WithEvents TitolOriginalSeriematerialProvysDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
+    Friend WithEvents UrlproxydaletDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
+    Friend WithEvents QcDaletDataGridViewTextBoxColumn As DataGridViewCheckBoxColumn
+    Friend WithEvents QcVisionadosDataGridViewTextBoxColumn As DataGridViewCheckBoxColumn
+    Friend WithEvents QcTecnicoDataGridViewTextBoxColumn As DataGridViewCheckBoxColumn
+    Friend WithEvents Button1 As Button
+    Friend WithEvents Button2 As Button
 End Class
